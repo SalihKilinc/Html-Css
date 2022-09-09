@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>row ve colspan ile cizelge</title>
+
+
+<style> 
+.cizelge{
+    background-color: rgb(246, 223, 223);
+    width: 110%;
+}
+.zaman{
+    text-align:center;
+}
+.ara{
+    text-align:center;
+}
+.renk-ac{
+    background-color:blueviolet
+}
+
+
+
+</style>
+
+</head>
+<body>
+    <table class="cizelge">
+        
+        <thead> 
+            <tr>
+                <th class="zaman">Zaman Cizelgesi</th>
+                
+            </tr>
+            <thead> 
+                <tr class="rengi-ac">
+            <td>Gunler</td>
+            <td></td>
+            <td>Ptesi</td>
+            <td>Sali</td>
+            <td>Cars</td>
+            <td>Pers</td>
+            <td>Cuma</td>
+        </tr>
+        <tr>
+            <td row="5">Saatler</td>
+            <td>1</td>
+            <td>Turkce</td>
+            <td>Mat</td>
+            <td>Turkce</td>
+            <td>Mat</td>
+            <td>Fen</td>
+        </tr>
+        <tr class="rengi-ac">
+            <td></td>
+            <td>1</td>
+            <td>Turkce</td>
+            <td>Mat</td>
+            <td>Turkce</td>
+            <td>Mat</td>
+            <td>Fen</td>
+        </tr>
+        <tr>
+            
+            <td class="ara" colspan="7">Dinlenme</td>
+            
+        </tr>
+        <tr class="rengi-ac">
+            <td></td>
+            <td>1</td>
+            <td>Turkce</td>
+            <td>Mat</td>
+            <td>Turkce</td>
+            <td>Mat</td>
+            <td>Fen</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>1</td>
+            <td>Turkce</td>
+            <td>Mat</td>
+            <td>Turkce</td>
+            <td>Mat</td>
+            <td>Fen</td>
+        </tr>
+    </table>
+</body>
+</html>
