@@ -1,0 +1,129 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formlar</title>
+</head>
+
+<body>
+    <h1>Kayit Formu </h1>
+    <form action="server/kayit.js" method="post">
+
+        <p>
+
+            <input type="hidden" name="id" value="123" />
+
+        </p>
+
+
+        <p>
+            <!-- Required ile dolduruma alani zorunlu hale geldi  minlength ile girilecek en az karakter maxlenght ile girilecek max karakter sayisi belirlenir -->
+            <label for="Name"> Name</label>
+            <input id="Name" name="Name" type="text" value="" required minlength="5" />
+
+        </p>
+        <p>
+
+            <label for="Last Name"> Last Name</label>
+            <input id="Last Name" type="text" placeholder="Last Name" />
+        </p>
+        <p>
+            <label for="Sifreniz"> password </label>
+            <input id="Sifreniz" type="password" required minlength="5"  />
+
+        </p>
+        <p>
+            <!-- min ve max ile tarih sinirlamasi yapilir  -->
+            <label for="Experience"> Experience</label>
+            <input id="Experience" type="number" min="0" max="10" />
+
+        </p>
+        <p> <label for="Hobileriniz"> Hobileriniz </label> <br>
+        </p>
+
+
+        <p>
+            <!-- id ve for degeri ayni olmali  -->
+            <input type="checkbox" name="Futbol" id="Futbol" value="Futbol">
+            <label for="Futbol"> Futbol </label>
+
+
+        </p>
+        <p>
+            <input type="checkbox" name="Tenis" id="Tenis" value="Tenis">
+            <label for="Tenis"> Tenis </label>
+
+
+
+        </p>
+        <p>
+            <input type="checkbox" name="Basketbol" id="Basketbol" value="Basketbol">
+
+            <label for="Basketbol"> Basketbol </label>
+
+
+        </p>
+        <p>
+            <!-- Radio butonda ilk label icine ne yazilmissa yani name ayni olmak zorunda yoksa secim yapamazsin -->
+
+            <label for="cinsiyet"> Cinsiyet </label> <br />
+
+            <input type="radio" name="cinsiyet" id="erkek" value="erkek" />
+            <label for="erkek"> Erkek </label> <br />
+
+
+            <input type="radio" name="cinsiyet" id="kadin" value="bayan" />
+            <label for="kadin"> Kadin </label> <br />
+
+        <p>
+            <!-- Avatar dosya secim islemi yapar bilgisayardan -->
+            <label for="">Avatar </label>
+            <input type="file" name="avatar" id="avatar" />
+        </p>
+
+        <p>
+            <label for="">Date</label> <br />
+            <input type="date" name="date" id="date" />
+        </p>
+
+        <p>
+            <label for="">Time</label> <br />
+            <input type="time" name="date" id="date" />
+        </p>
+
+        <p>
+            <!-- Text area ile adres bolumu actik cols ile 35 kelime siniri koyduk rows ile en fazla 10 satir asgi kayabilir dedik -->
+            <label for="adres">Adresse</label>
+            <textarea name="adres" id="adres" rows="10" cols="35"> </textarea>
+        </p>
+
+        <p>
+            <!--Section kendi basina kullanilir secim olusturmak icin kullanilir -->
+            <label for="Dogum_yeri">Born</label>
+            <select name="born" id="Dogum_yeri">
+                <option value="1">Berlin </option>
+                <option value="2">Zurich</option>
+                <option value="3">Lausanne </option>
+                <option value="4">Sion</option>
+
+            </select>
+        </p>
+
+        </p>
+
+        <P>
+            <input type="button" value="Send" />
+            <input type="submit" value="submit" />
+            <input type="reset" value="prope" />
+
+        <P>
+
+
+
+    </form>
+
+</body>
+
+</html>
