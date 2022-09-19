@@ -1,0 +1,44 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+.menu{
+    background-color: rgb(197, 179, 20);
+   
+    color: rgb(41, 14, 14);
+    width:220px; 
+    list-style-type:"🧿";
+    list-style-position:inside;
+    padding: 0;
+}
+/*list style type ile nazar boncunu yerlestirdik
+list style position inside yaptik ve nazar boncuklarini li icine aldik inside olsa nazar boncuklari disarda kalmis olacakti */
+
+.menu li :hover{
+background-color: rgb(182, 149, 149);
+
+}
+/* menu li ile ile arka plan rengi verdik bunun olmasi gerekli*/
+/* menu icindeki li ' lerin a tagina hover ile gecis renkleri verdik sadece li ye hover versek gecis renkleri etkinligi sorun olabilirdi boyuttan dolayi */
+
+.menu li:hover a{
+    color: white;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+/* Test decoration yazinin altindaki cizgileri kaybettik */
+/* widht ile px verdik ve tamamini kaplamasini onledik div burun satirlari kapsiyordu */ 
+.aktif {
+    background-color: rgb(77, 35, 192);
+    color: white;
+} 
+.aktif a{
+    background-color: rgb(77, 35, 192);
+    color: white;
+} 

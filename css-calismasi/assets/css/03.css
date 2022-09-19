@@ -1,0 +1,11 @@
+.menu{
+    background-color: rgb(197, 179, 20);
+    text-align: center;
+    color: white;
+    width:220px; 
+}
+/* widht ile px verdik ve tamamini kaplamasini onledik div burun satirlari kapsiyordu */ 
+.aktif{
+    background-color: rgb(77, 35, 192);
+    color: white;
+}

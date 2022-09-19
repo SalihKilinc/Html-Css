@@ -1,0 +1,19 @@
+.boit1{
+    background-color: rgb(114, 145, 145);
+    padding: 20px;
+    margin-top: 15;
+    margin-bottom: 20px;
+}
+.boit2{
+    background-color:yellowgreen;
+    padding: 20px;
+}
+.boit3{
+    background-color: rgb(114, 145, 145);
+    padding-top: 10px;
+}/* span elemani paddingi ustten alir alttan almaz */
+/* Padding divlerin icinde bulunan kisimlari etkiler */
+/* margin ise divin kendisidir kenar ayarlamlari yapar  */
+/* 4 yonude tek hamlede yapabilirsiniz saat yonunde dusun ilk deger ustten ikinci sag ucuncu alt dorduncu solu etkiler*/
+/* Yukardaki yoruma ornek : margin:30px ,23px,88px,15px; gibib yapilabilir ayni sey padding icinde gecerlidir */
+/* Inline elemanlar icin kullanilmaz margin fakat padding kullanilir (span) */
