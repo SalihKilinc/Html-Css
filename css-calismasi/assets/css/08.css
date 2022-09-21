@@ -1,0 +1,23 @@
+.menu{
+    width: 300px;
+    color: rgb(41, 2, 2)
+}
+.menu .buton{
+    background-color:rgb(17, 32, 49);
+    color: white;
+    text-align: center;
+    padding:7px 1px;
+    
+}
+.menu:hover ul{
+    display:block;
+}
+.menu ul{
+    list-style: none;
+    padding: 5px;
+    border: 1px dashed rgb(194, 168, 197);
+    margin: 0;
+    display: none;
+}
+/* display none ile urunlere sakladik menu icindeki hover ver tusu ilede gorunur hale getirdik */
+/* dashed noktali bir sekilde cevirir solid ise duz cizgi halinde  */
