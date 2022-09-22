@@ -1,0 +1,19 @@
+.container1{
+    width: 100px;
+height: 60px;
+background-color: rgb(236, 222, 25);
+position: relative;
+top: 100px;
+left: 50px;
+z-index: 2;
+}
+.container2{
+    width: 100px;
+height: 60px;
+background-color: rgb(38, 20, 138);
+position: relative;
+z-index: 2;
+}
+/* Position relative ile static elemanlara deger verebiliriz
+ z-index degeri onceligin kimde oldugunu gosteriri en yapilan islemi baz alir
+*/

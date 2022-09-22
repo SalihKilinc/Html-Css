@@ -1,0 +1,33 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.up-menu{
+    background-color: rgb(101, 216, 25);
+}
+.header div ,
+.up-menu div{
+    display: inline-block;
+    width:48.4%;
+    padding: 4px;
+    color: rgb(32, 24, 24);
+}
+.header .menu,
+.up-right {
+    text-align: right;
+}
+.up-menu a{
+color: rgb(77, 65, 185);
+text-decoration: none;
+}
+.header {
+    background-color:rgb(117, 165, 168);
+    position:sticky;
+    top: 0;
+}
+
+/* Position stick en ustte olan kismi sabitler mouse ile asagi 
+insek bile logo kismi yerinde kalir bunuda top ayarini 0 vererek yapariz 
+display inline block ile yine div ozelligini kaldirdik */

@@ -1,0 +1,19 @@
+.text-box{
+   display: inline-block;
+  
+   position: relative;
+}
+
+.text-box .fa-search{
+    position: absolute;
+    right: 6px;
+    top : 3px;
+}
+
+.text-box input {
+    padding-right: 24px;
+    border: 1px solid gray;
+    border-radius:20px;
+}
+/* text-box input padding right verdik ve icinde nereye kadar yazilabilecek onu sabitledik */
+/* Position absoulute verebilmen icin Parents elemanina position relative vermen SART !!! */
