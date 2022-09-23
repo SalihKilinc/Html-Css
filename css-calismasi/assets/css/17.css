@@ -1,0 +1,22 @@
+.write{
+    font-size:44px;
+    color:yellowgreen;
+    font-weight:bold;
+    text-shadow: 3px 1px rgb(86, 86, 150);
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(187, 122, 122);
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px  rgb(17, 1, 1);
+    
+    border-radius:10px;
+}
+.write2{
+    font-size:44px;
+    color:yellowgreen;
+    font-weight:bold;
+    text-shadow: 3px 1px 3px  rgb(86, 86, 150) , 3px 3px 7px ;
+}
+/* Write ile yazi icin golge yaptik box ile kutuya */

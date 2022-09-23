@@ -1,0 +1,32 @@
+.text-box{
+    display: inline-block;
+   
+    position: relative;
+ }
+ .text-box input{
+    position: absolute;
+    left: 265px;
+    right: 6px;
+    top : 1.5px;
+  
+}
+.text-box input {
+    padding-left: 6px;
+    border: 1px solid gray;
+    border-radius:10px;
+}
+.text-box2{
+    display: inline-block;
+   
+    position: relative;
+
+ } .text-box2 input{
+    position: absolute;
+    left: 100px;
+    top : 1px;
+}
+.text-box2 input {
+    padding-right: 1px;
+    border: 1px solid gray;
+    border-radius:20px;
+}
