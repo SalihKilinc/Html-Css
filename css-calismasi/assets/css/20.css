@@ -1,0 +1,16 @@
+.box{
+    font-size: 20px;
+    color: yellowgreen;
+}
+.box2{
+    display:none;
+}
+@media (min-width: 768px) { /*Ekran boyutu 768 olana kadar acik sari 768 i gecince yesil olmak icin yapildi */
+    .box{
+        font-size: 30px;
+        color: green;
+    }
+    .box2{
+        display:block; /* Ekran boyutu 768 i gecince be happy yazisi cicak bonjour yazsinin altinda */
+    }
+}
