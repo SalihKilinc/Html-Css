@@ -1,0 +1,30 @@
+.menu ul{
+display: flex;
+list-style: none; /*li icinde noktalari kaldirdik */
+justify-content: center;
+font-size: 1.3rem; /*Yazi boyutu verdik */
+padding: 0;
+margin: 0;
+}
+
+.menu a{
+    text-decoration: none; /*a linkindeki alt yaziyi kaldirdik */
+    color: rgb(83, 50, 173);
+    display: inline-block;
+    padding: 10px 10px;
+}
+.menu{
+    background-color: aqua;
+    border-radius:15px;
+    border: 1px solid rgb(77, 48, 48);
+}
+.menu a:hover{
+    background-color: rgb(142, 231, 41);
+    
+}
+.menu li{
+    border-right: 1px solid rgb(33, 39, 7); /* Yanlarina cizgi koduk*/
+}
+.menu .pre{
+    border-left: 1px solid rgb(33, 39, 7); /*Home yanina cizgi koyduk */
+}

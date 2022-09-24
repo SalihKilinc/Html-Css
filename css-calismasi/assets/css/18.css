@@ -1,0 +1,40 @@
+.box{
+   /* width: 60px;*/
+  /* height: 60px;*/
+    background-color: rgb(168, 103, 23);
+    border: 1px solid rgb(228, 172, 186);
+  /*  margin-right: 20px; /* aralarina 20px actik */
+   padding: 10px; /* kutu icindeki rakamlarla oynadik */
+   flex: 1; /* kutulari yatay birlestirdik */
+  
+
+}
+.box1{
+    flex: 1; 
+}
+.box2{
+    flex:3;
+}
+.box3{
+    flex:0.2;
+}
+.boxes{
+   display:flex; /* dikey kolonlari yatay yaptik */
+   flex-direction: row;
+   flex-wrap: wrap; /* kutulari asgi kaydirdik */
+  
+   justify-content: flex-end; /* sona atar hepsini*/
+   justify-content: space-around; /* en bastan en sona aralikli bosluk birakir */
+   justify-content:space-evenly; /* hepsine esit aralik birakir */
+   justify-content: center; /* ortalar */
+   justify-content: space-between; /* aralikli birakir */
+   align-items: flex-end; /* Kutulari alta getirir */
+   align-items: center; /* kutulari ortaladi  */
+  /* align-items: stretch; /* kutulari asgi dogru uzatti */
+   background-color: blueviolet;
+   height: 25%;
+}
+/* display flex ve flex direction yan yana dizer yatay
+flex wrap ise ekrani kucultsek bile resimlerin veya kutularin alt sekmeye inmesini saglar
+justify content kullanilarak kutularin yerini degistirebilirsin
+*/
